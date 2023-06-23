@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="12" errors="0" time="1.191">
+  <testsuite name="undefined" errors="0" failures="12" skipped="0" timestamp="2023-06-23T07:31:51" time="0.722" tests="12">
+    <testcase classname=" Initially Selected players should be empty, all 25 players getting rendered in Available Players" name=" Initially Selected players should be empty, all 25 players getting rendered in Available Players" time="0.026">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 25
+Received: 2
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:48:52)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Show welcome instructions initially and disappear on clicking close button" name=" Show welcome instructions initially and disappear on clicking close button" time="0.011">
+      <failure>Error: expect(element).not.toBeInTheDocument()
+
+expected document not to contain element, found &lt;td class=&quot;card pb-20&quot; colspan=&quot;3&quot; data-testid=&quot;selection-rules&quot;&gt;&lt;p data-testid=&quot;close-welcome&quot; style=&quot;text-align: right;&quot;&gt;X&lt;/p&gt;&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Welcome to Team Selection&lt;/strong&gt;&lt;/h3&gt;11 players are required in a team &lt;br /&gt;3-6 batsmen and bowlers are allowed in a team&lt;br /&gt;Only 1 Wicket Keeper required in a team&lt;br /&gt;1-4 All Rounders are allowed in a team&lt;/td&gt; instead
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:58:52)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Select first player in Available Players" name=" Select first player in Available Players" time="0.005">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: 0
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:66:51)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Remove Selected player" name=" Remove Selected player" time="0.005">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: 0
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:78:51)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Select 5 players" name=" Select 5 players" time="0.008">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;available-Virat-Kohli-select&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Team Selection&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-50 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          style=&quot;display: flex; width: 80%;&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            data-testid=&quot;player-Rohit-Sharma-details&quot;
+            style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;
+          &gt;
+            &lt;h1
+              class=&quot;card-title&quot;
+              style=&quot;text-align: center;&quot;
+            &gt;
+              Player Detail
+            &lt;/h1&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Name:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-name&quot;
+              &gt;
+                Rohit Sharma
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Type:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-type&quot;
+              &gt;
+                Batsman
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Batting:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Bowling:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;button
+              data-testid=&quot;player-detail-Rohit-Sharma-add&quot;
+            &gt;
+              Select
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;danger&quot;
+              data-testid=&quot;player-detail-Rohit-Sharma-close&quot;
+            &gt;
+              Close
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Available Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th
+                      data-testid=&quot;available-players-name&quot;
+                    &gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;available-players-table-body&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      class=&quot;card pb-20&quot;
+                      colspan=&quot;3&quot;
+                      data-testid=&quot;selection-rules&quot;
+                    &gt;
+                      &lt;p
+                        data-testid=&quot;close-welcome&quot;
+                        style=&quot;text-align: right;&quot;
+                      &gt;
+                        X
+                      &lt;/p&gt;
+                      &lt;h3
+                        style=&quot;text-align: center;&quot;
+                      &gt;
+                        &lt;strong&gt;
+                          Welcome to Team Selection
+                        &lt;/strong&gt;
+                      &lt;/h3&gt;
+                      11 players are required in a team 
+                      &lt;br /&gt;
+                      3-6 batsmen and bowlers are allowed in a team
+                      &lt;br /&gt;
+                      Only 1 Wicket Keeper required in a team
+                      &lt;br /&gt;
+                      1-4 All Rounders are allowed in a team
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr
+                    data-testid=&quot;available-Rohit-Sharma-row&quot;
+                  &gt;
+                    &lt;td
+                      data-testid=&quot;available-Rohit-Sharma-name&quot;
+                    &gt;
+                      Rohit Sharma
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      Batsman
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      &lt;button
+                        class=&quot;btn btn-primary text&quot;
+                        data-testid=&quot;available-Rohit-Sharma-select&quot;
+                      &gt;
+                        Select
+                      &lt;/button&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Selected Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;selected-players-table-body&quot;
+                /&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:93:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Add 5 players and remove them" name=" Add 5 players and remove them" time="0.006">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;available-Virat-Kohli-select&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Team Selection&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-50 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          style=&quot;display: flex; width: 80%;&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            data-testid=&quot;player-Rohit-Sharma-details&quot;
+            style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;
+          &gt;
+            &lt;h1
+              class=&quot;card-title&quot;
+              style=&quot;text-align: center;&quot;
+            &gt;
+              Player Detail
+            &lt;/h1&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Name:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-name&quot;
+              &gt;
+                Rohit Sharma
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Type:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-type&quot;
+              &gt;
+                Batsman
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Batting:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Bowling:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;button
+              data-testid=&quot;player-detail-Rohit-Sharma-add&quot;
+            &gt;
+              Select
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;danger&quot;
+              data-testid=&quot;player-detail-Rohit-Sharma-close&quot;
+            &gt;
+              Close
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Available Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th
+                      data-testid=&quot;available-players-name&quot;
+                    &gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;available-players-table-body&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      class=&quot;card pb-20&quot;
+                      colspan=&quot;3&quot;
+                      data-testid=&quot;selection-rules&quot;
+                    &gt;
+                      &lt;p
+                        data-testid=&quot;close-welcome&quot;
+                        style=&quot;text-align: right;&quot;
+                      &gt;
+                        X
+                      &lt;/p&gt;
+                      &lt;h3
+                        style=&quot;text-align: center;&quot;
+                      &gt;
+                        &lt;strong&gt;
+                          Welcome to Team Selection
+                        &lt;/strong&gt;
+                      &lt;/h3&gt;
+                      11 players are required in a team 
+                      &lt;br /&gt;
+                      3-6 batsmen and bowlers are allowed in a team
+                      &lt;br /&gt;
+                      Only 1 Wicket Keeper required in a team
+                      &lt;br /&gt;
+                      1-4 All Rounders are allowed in a team
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr
+                    data-testid=&quot;available-Rohit-Sharma-row&quot;
+                  &gt;
+                    &lt;td
+                      data-testid=&quot;available-Rohit-Sharma-name&quot;
+                    &gt;
+                      Rohit Sharma
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      Batsman
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      &lt;button
+                        class=&quot;btn btn-primary text&quot;
+                        data-testid=&quot;available-Rohit-Sharma-select&quot;
+                      &gt;
+                        Select
+                      &lt;/button&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Selected Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;selected-players-table-body&quot;
+                /&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:108:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Player card select button should be disabled for already selected player" name=" Player card select button should be disabled for already selected player" time="0.004">
+      <failure>Error: expect(element).toBeDisabled()
+
+Received element is not disabled:
+  &lt;button class=&quot;btn btn-primary text&quot; data-testid=&quot;available-Rohit-Sharma-select&quot; /&gt;
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:127:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Select Player on Card and close card" name=" Select Player on Card and close card" time="0.007">
+      <failure>Error: expect(element).not.toBeInTheDocument()
+
+expected document not to contain element, found &lt;div class=&quot;card outlined mt-0&quot; data-testid=&quot;player-Rohit-Sharma-details&quot; style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;&gt;&lt;h1 class=&quot;card-title&quot; style=&quot;text-align: center;&quot;&gt;Player Detail&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; &lt;span data-testid=&quot;player-detail-Rohit-Sharma-name&quot;&gt;Rohit Sharma&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; &lt;span data-testid=&quot;player-detail-Rohit-Sharma-type&quot;&gt;Batsman&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Batting:&lt;/strong&gt; &lt;span data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;&gt;90&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Bowling:&lt;/strong&gt; &lt;span data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;&gt;90&lt;/span&gt;&lt;/p&gt;&lt;button data-testid=&quot;player-detail-Rohit-Sharma-add&quot;&gt;Select&lt;/button&gt;&lt;button class=&quot;danger&quot; data-testid=&quot;player-detail-Rohit-Sharma-close&quot;&gt;Close&lt;/button&gt;&lt;/div&gt; instead
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:146:33)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Check limit on adding more than 6 batsman" name=" Check limit on adding more than 6 batsman" time="0.006">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;available-Virat-Kohli-select&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Team Selection&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-50 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          style=&quot;display: flex; width: 80%;&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            data-testid=&quot;player-Rohit-Sharma-details&quot;
+            style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;
+          &gt;
+            &lt;h1
+              class=&quot;card-title&quot;
+              style=&quot;text-align: center;&quot;
+            &gt;
+              Player Detail
+            &lt;/h1&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Name:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-name&quot;
+              &gt;
+                Rohit Sharma
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Type:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-type&quot;
+              &gt;
+                Batsman
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Batting:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Bowling:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;button
+              data-testid=&quot;player-detail-Rohit-Sharma-add&quot;
+            &gt;
+              Select
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;danger&quot;
+              data-testid=&quot;player-detail-Rohit-Sharma-close&quot;
+            &gt;
+              Close
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Available Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th
+                      data-testid=&quot;available-players-name&quot;
+                    &gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;available-players-table-body&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      class=&quot;card pb-20&quot;
+                      colspan=&quot;3&quot;
+                      data-testid=&quot;selection-rules&quot;
+                    &gt;
+                      &lt;p
+                        data-testid=&quot;close-welcome&quot;
+                        style=&quot;text-align: right;&quot;
+                      &gt;
+                        X
+                      &lt;/p&gt;
+                      &lt;h3
+                        style=&quot;text-align: center;&quot;
+                      &gt;
+                        &lt;strong&gt;
+                          Welcome to Team Selection
+                        &lt;/strong&gt;
+                      &lt;/h3&gt;
+                      11 players are required in a team 
+                      &lt;br /&gt;
+                      3-6 batsmen and bowlers are allowed in a team
+                      &lt;br /&gt;
+                      Only 1 Wicket Keeper required in a team
+                      &lt;br /&gt;
+                      1-4 All Rounders are allowed in a team
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr
+                    data-testid=&quot;available-Rohit-Sharma-row&quot;
+                  &gt;
+                    &lt;td
+                      data-testid=&quot;available-Rohit-Sharma-name&quot;
+                    &gt;
+                      Rohit Sharma
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      Batsman
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      &lt;button
+                        class=&quot;btn btn-primary text&quot;
+                        data-testid=&quot;available-Rohit-Sharma-select&quot;
+                      &gt;
+                        Select
+                      &lt;/button&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Selected Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;selected-players-table-body&quot;
+                /&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:155:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Check limit on adding more than 4 allrounders" name=" Check limit on adding more than 4 allrounders" time="0.005">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;available-Ravindra-Jadeja-select&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Team Selection&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-50 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          style=&quot;display: flex; width: 80%;&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            data-testid=&quot;player-Rohit-Sharma-details&quot;
+            style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;
+          &gt;
+            &lt;h1
+              class=&quot;card-title&quot;
+              style=&quot;text-align: center;&quot;
+            &gt;
+              Player Detail
+            &lt;/h1&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Name:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-name&quot;
+              &gt;
+                Rohit Sharma
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Type:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-type&quot;
+              &gt;
+                Batsman
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Batting:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Bowling:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;button
+              data-testid=&quot;player-detail-Rohit-Sharma-add&quot;
+            &gt;
+              Select
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;danger&quot;
+              data-testid=&quot;player-detail-Rohit-Sharma-close&quot;
+            &gt;
+              Close
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Available Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th
+                      data-testid=&quot;available-players-name&quot;
+                    &gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;available-players-table-body&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      class=&quot;card pb-20&quot;
+                      colspan=&quot;3&quot;
+                      data-testid=&quot;selection-rules&quot;
+                    &gt;
+                      &lt;p
+                        data-testid=&quot;close-welcome&quot;
+                        style=&quot;text-align: right;&quot;
+                      &gt;
+                        X
+                      &lt;/p&gt;
+                      &lt;h3
+                        style=&quot;text-align: center;&quot;
+                      &gt;
+                        &lt;strong&gt;
+                          Welcome to Team Selection
+                        &lt;/strong&gt;
+                      &lt;/h3&gt;
+                      11 players are required in a team 
+                      &lt;br /&gt;
+                      3-6 batsmen and bowlers are allowed in a team
+                      &lt;br /&gt;
+                      Only 1 Wicket Keeper required in a team
+                      &lt;br /&gt;
+                      1-4 All Rounders are allowed in a team
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr
+                    data-testid=&quot;available-Rohit-Sharma-row&quot;
+                  &gt;
+                    &lt;td
+                      data-testid=&quot;available-Rohit-Sharma-name&quot;
+                    &gt;
+                      Rohit Sharma
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      Batsman
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      &lt;button
+                        class=&quot;btn btn-primary text&quot;
+                        data-testid=&quot;available-Rohit-Sharma-select&quot;
+                      &gt;
+                        Select
+                      &lt;/button&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Selected Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;selected-players-table-body&quot;
+                /&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:172:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Check limit on adding more than 6 Bowlers" name=" Check limit on adding more than 6 Bowlers" time="0.005">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;available-Jasprit-Bumrah-select&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Team Selection&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-50 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          style=&quot;display: flex; width: 80%;&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            data-testid=&quot;player-Rohit-Sharma-details&quot;
+            style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;
+          &gt;
+            &lt;h1
+              class=&quot;card-title&quot;
+              style=&quot;text-align: center;&quot;
+            &gt;
+              Player Detail
+            &lt;/h1&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Name:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-name&quot;
+              &gt;
+                Rohit Sharma
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Type:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-type&quot;
+              &gt;
+                Batsman
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Batting:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Bowling:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;button
+              data-testid=&quot;player-detail-Rohit-Sharma-add&quot;
+            &gt;
+              Select
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;danger&quot;
+              data-testid=&quot;player-detail-Rohit-Sharma-close&quot;
+            &gt;
+              Close
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Available Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th
+                      data-testid=&quot;available-players-name&quot;
+                    &gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;available-players-table-body&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      class=&quot;card pb-20&quot;
+                      colspan=&quot;3&quot;
+                      data-testid=&quot;selection-rules&quot;
+                    &gt;
+                      &lt;p
+                        data-testid=&quot;close-welcome&quot;
+                        style=&quot;text-align: right;&quot;
+                      &gt;
+                        X
+                      &lt;/p&gt;
+                      &lt;h3
+                        style=&quot;text-align: center;&quot;
+                      &gt;
+                        &lt;strong&gt;
+                          Welcome to Team Selection
+                        &lt;/strong&gt;
+                      &lt;/h3&gt;
+                      11 players are required in a team 
+                      &lt;br /&gt;
+                      3-6 batsmen and bowlers are allowed in a team
+                      &lt;br /&gt;
+                      Only 1 Wicket Keeper required in a team
+                      &lt;br /&gt;
+                      1-4 All Rounders are allowed in a team
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr
+                    data-testid=&quot;available-Rohit-Sharma-row&quot;
+                  &gt;
+                    &lt;td
+                      data-testid=&quot;available-Rohit-Sharma-name&quot;
+                    &gt;
+                      Rohit Sharma
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      Batsman
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      &lt;button
+                        class=&quot;btn btn-primary text&quot;
+                        data-testid=&quot;available-Rohit-Sharma-select&quot;
+                      &gt;
+                        Select
+                      &lt;/button&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Selected Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;selected-players-table-body&quot;
+                /&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:190:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" check limit on adding 11 players" name=" check limit on adding 11 players" time="0.004">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;available-Virat-Kohli-select&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;h8k-navbar
+        header=&quot;Team Selection&quot;
+      /&gt;
+      &lt;div
+        class=&quot;mt-50 layout-column justify-content-center align-items-center&quot;
+      &gt;
+        &lt;div
+          style=&quot;display: flex; width: 80%;&quot;
+        &gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            data-testid=&quot;player-Rohit-Sharma-details&quot;
+            style=&quot;position: fixed; left: 50%; transform: translateX(-50%); padding: 20px; width: 500px; top: 30%;&quot;
+          &gt;
+            &lt;h1
+              class=&quot;card-title&quot;
+              style=&quot;text-align: center;&quot;
+            &gt;
+              Player Detail
+            &lt;/h1&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Name:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-name&quot;
+              &gt;
+                Rohit Sharma
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Type:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-type&quot;
+              &gt;
+                Batsman
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Batting:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-batting&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+              &lt;strong&gt;
+                Bowling:
+              &lt;/strong&gt;
+               
+              &lt;span
+                data-testid=&quot;player-detail-Rohit-Sharma-bowling&quot;
+              &gt;
+                90
+              &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;button
+              data-testid=&quot;player-detail-Rohit-Sharma-add&quot;
+            &gt;
+              Select
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;danger&quot;
+              data-testid=&quot;player-detail-Rohit-Sharma-close&quot;
+            &gt;
+              Close
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Available Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th
+                      data-testid=&quot;available-players-name&quot;
+                    &gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;available-players-table-body&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      class=&quot;card pb-20&quot;
+                      colspan=&quot;3&quot;
+                      data-testid=&quot;selection-rules&quot;
+                    &gt;
+                      &lt;p
+                        data-testid=&quot;close-welcome&quot;
+                        style=&quot;text-align: right;&quot;
+                      &gt;
+                        X
+                      &lt;/p&gt;
+                      &lt;h3
+                        style=&quot;text-align: center;&quot;
+                      &gt;
+                        &lt;strong&gt;
+                          Welcome to Team Selection
+                        &lt;/strong&gt;
+                      &lt;/h3&gt;
+                      11 players are required in a team 
+                      &lt;br /&gt;
+                      3-6 batsmen and bowlers are allowed in a team
+                      &lt;br /&gt;
+                      Only 1 Wicket Keeper required in a team
+                      &lt;br /&gt;
+                      1-4 All Rounders are allowed in a team
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr
+                    data-testid=&quot;available-Rohit-Sharma-row&quot;
+                  &gt;
+                    &lt;td
+                      data-testid=&quot;available-Rohit-Sharma-name&quot;
+                    &gt;
+                      Rohit Sharma
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      Batsman
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                      &lt;button
+                        class=&quot;btn btn-primary text&quot;
+                        data-testid=&quot;available-Rohit-Sharma-select&quot;
+                      &gt;
+                        Select
+                      &lt;/button&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;card outlined mt-0&quot;
+            style=&quot;width: 50%; margin-right: 10px; overflow: scroll; height: 80vh;&quot;
+          &gt;
+            &lt;div
+              class=&quot;card-text&quot;
+            &gt;
+              &lt;h4
+                style=&quot;text-align: center;&quot;
+              &gt;
+                Selected Players
+              &lt;/h4&gt;
+              &lt;table&gt;
+                &lt;thead&gt;
+                  &lt;tr&gt;
+                    &lt;th&gt;
+                      Name
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Role
+                    &lt;/th&gt;
+                    &lt;th&gt;
+                      Action
+                    &lt;/th&gt;
+                  &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody
+                  data-testid=&quot;selected-players-table-body&quot;
+                /&gt;
+              &lt;/table&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/src/App.test.js:207:28)
+    at Promise.then.completed (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/vaibhavchobisa/Documents/web-dev-projects/react-projects/3c35f19a-4462-43bb-862b-05ff69709e88/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
