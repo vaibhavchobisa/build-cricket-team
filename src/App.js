@@ -1,15 +1,10 @@
-import React from "react";
-import "./App.css";
-import "h8k-components";
-
 import TeamSelection from "./components/team-selection";
-
-const title = "Team Selection";
+import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <h8k-navbar header={title}></h8k-navbar>
+      <h1 className="header">Team Selection</h1>
       <TeamSelection />
     </div>
   );
