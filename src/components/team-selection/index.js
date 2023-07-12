@@ -193,7 +193,7 @@ export default function TeamSelection() {
 									welcome ?
 										(<tr>
 											<td data-testid="selection-rules" colSpan="3" className="card pb-20">
-												<p data-testid="close-welcome" style={{ textAlign: 'right' }} onClick={() => setWelcome(false)}>X</p>
+												<p data-testid="close-welcome" style={{ textAlign: 'right', cursor: 'pointer' }} onClick={() => setWelcome(false)}>X</p>
 												<h3 style={{ textAlign: "center" }}>
 													<strong>Welcome to Team Selection</strong>
 												</h3>
